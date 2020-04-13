@@ -1,0 +1,308 @@
+::-moz-selection { background: yellowgreen; }
+::selection { background: yellowgreen;
+color: black; }
+.navbar{
+    padding: 15px;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+.navbar a{
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+.navbar li{
+    margin-right: 10px;
+}
+.navbar li a{
+    transition: 0.5s all;
+}
+.navbar li:hover a{
+    border-bottom: 3px yellowgreen solid;
+    color: yellowgreen !important;
+}
+.navbar li a{
+    color: white !important;
+}
+.navbar .navbar-brand {
+    color: yellowgreen !important;
+}
+#home{
+    background-image: url('../img/header-bg.jpg');
+    background-size: 100% 100%;
+    height: 100vh;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.homeContent {
+    text-align: center;
+    color: white;   
+}
+.bigger{
+    font-size: 5.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.homeContent button{
+    color: white;
+}
+.homeContent button:hover{
+    color: white;
+}
+.headerText{
+    font-size: 2rem;
+    font-weight: bold;
+    color: #002147;
+    text-align: center;
+    margin: auto;
+}
+.aligned-text{
+    text-align: center;
+}
+/*********************************************************************************************/
+/*********************************************************************************************/
+.personalCard{
+    position: relative;
+    overflow: hidden;
+}
+.disappearedLayer{
+    background-color: rgba(0, 150, 255, 0.5);
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 100%;
+    left: 0;
+    transition: 1s all;
+}
+.personalCard:hover .disappearedLayer{
+    bottom: 15px;
+    left: 15px;
+    right: 15px;
+    top: 15px;
+}
+.disappearedLayer a{
+    color: yellowgreen;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.buttonLayer{
+    background-color: white;
+    text-align: center;
+    width: 90%;
+    position: absolute;
+    top: 67%;
+    left: 5%;
+    padding: 10px;
+    transition: all 0.5s 0.3s;
+}
+.personalCard:hover .buttonLayer{
+    top: 105%;
+}
+/**************************************************************************************************/
+/**************************************************************************************************/
+#about{
+    background-color: #F9F9F9;
+}
+.categoryData{
+    position: relative;
+}
+.categoryLayer1{
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #337AB7;   
+    position: absolute ;
+    top: 0;
+    left: 0; 
+    z-index: 1;
+}
+.categoryLayer2{
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #1EC1D9;   
+    position: absolute ;
+    top: 0;
+    left: 0; 
+}
+.categoryLayer3{
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #10C45C;   
+    position: absolute ;
+    top: 0;
+    left: 0; 
+}
+.categoryLayer4{
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #47C58E;   
+    position: absolute ;
+    top: 0;
+    left: 0; 
+}
+.categoryLayer5{
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #F9BD44;   
+    position: absolute ;
+    top: 0;
+    left: 0; 
+}
+.categoryLayer6{
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #E948AE;   
+    position: absolute ;
+    top: 0;
+    left: 0; 
+}
+.categoryLayer7{
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #E84B3A;   
+    position: absolute ;
+    top: 0;
+    left: 0; 
+}
+.categoryLayer8{
+    display: flex;
+    color: white;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #92278F;   
+    position: absolute ;
+    top: 0;
+    left: 0; 
+}
+.categoryBody{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: white;
+    width: 100%;
+    height: 100%;
+    background-color: #1EC1D9;   
+    position: absolute ;
+    top: 0;
+    left: 0;
+    z-index: 3;
+}
+
+.categoryLayer{
+    opacity: 1;
+    transition: 0.5s all;
+}
+/* .categoryBody:hover .categoryLayer{
+    opacity: 0.5;
+} */
+.categoryData:hover .categoryLayer1{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.categoryData:hover .categoryLayer2{
+background-color: rgba(0, 0, 0, 0.5);
+}
+.categoryData:hover .categoryLayer3{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.categoryData:hover .categoryLayer4{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.categoryData:hover .categoryLayer5{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.categoryData:hover .categoryLayer6{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.categoryData:hover .categoryLayer7{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+.categoryData:hover .categoryLayer8{
+    background-color: rgba(0, 0, 0, 0.5);
+}
+            
+.categoryData:hover h3{
+    opacity: 1 !important;
+}
+/*************************************************************************************/
+/*************************************************************************************/
+.card-body p{
+    color: teal;
+}
+/************************************************************************************************/
+/************************************************************************************************/
+#contact{
+    background-color: black;
+    background-image: url('../img/map-image.png');
+    background-size: 100% 100%;
+}
+.contactHeader h1{
+    color: white;
+    font-size: 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.contactHeader p{
+    color: white;
+}
+.leftPart input{
+    width: 100%;
+    padding: 15px;
+    height: 70px;
+    margin-bottom: 15px;
+}
+.rightPart textarea{
+    width: 100%;
+    height: 240px;
+}
+.tail{
+    margin: auto;
+    text-align: center;
+}
+.card-header{
+    position: relative;
+    cursor: pointer;
+}
+.card-img-top{
+    cursor: pointer;
+    position: relative;
+}
+.cardLayer{
+    width: 100%;
+    height: 100%;
+    background-color: yellowgreen;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    transition: 0.5s all;
+}
+.card-img-top:hover .cardLayer{
+    opacity: 0.9;
+}
